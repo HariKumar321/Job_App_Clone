@@ -1,4 +1,4 @@
-In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
+In this project, we build a job application platform clone (Jobby App) similar to LinkedIn and Naukri by applying concepts from the MERN stack framework.
 
 ### Refer to videos below:
 

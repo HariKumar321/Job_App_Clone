@@ -1,0 +1,58 @@
+.forgot-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.forgot-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px 4px grey;
+  width: 90%;
+  max-width: 430px;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.forgot-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666869;
+}
+
+.lock-icon {
+  color: gold;
+}
+
+.forgot-para {
+  font-size: 16px;
+  color: darkgray;
+  margin: 0px;
+}
+
+.forgot-input {
+  border: 1px blue solid;
+  border-radius: 6px;
+  height: 40px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.arrow-icon {
+  color: #33beff;
+}
+
+.back-login-text {
+  text-align: center;
+  color: #33beff;
+  font-weight: bold;
+}

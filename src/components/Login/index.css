@@ -1,28 +1,49 @@
 .login-container {
-  background-color: #000000;
+  background-image: url('https://media-hosting.imagekit.io//8fb3ee0eb83a4621/logo%20(2).png?Expires=1735973397&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dxs3Snl45F93pqBXryMf3ojfxkf1yreMeJSzLIfROlL4CNhwLEKUawuN6dGU094nAkTPc8~WC0QFGq202IAJ8aYi4-F2~ghnTtylZhFoIeeaC8Z~Ylaprg~c8cySxYjAZh5yZXQCCqBYEMroBbc-ziTTNcn9lDwXvtH02PfoprFGQ0t8h9GSZWU2sXcHAEAKF90IlHUCnpwyasGA1IG3ST5~XFx3Z6WZTADaa0o79ldTA7ChgQDt6pjq0zfU7~YvSHR2wlbHhpBPHFdnZWLJOqFQw6wRHp1IxOAkmPxvQmiOIhhpbIitl4W~HmV2rEBdCdTWEvI3tKF4VAw0kLLxcg__');
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .login-form {
-  background-color: #272727;
+  background-color: white;
   padding: 20px;
   border-radius: 8px;
-
+  box-shadow: 4px 4px 4px 4px grey;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  gap: 20px;
-
+  gap: 17px;
   width: 90%;
   max-width: 430px;
 }
+
+.logo-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logoin-text {
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
 .website-logo-login-form {
   width: 120px;
-  align-self: center;
+  height: 50px;
   margin-bottom: 20px;
 }
+
+.website-logo-login-form2 {
+  width: 50px;
+  height: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .login-form {
     padding: 40px;
@@ -42,7 +63,7 @@
   font-size: 14px;
   font-weight: 600;
   margin-left: 2px;
-  color: #f8fafc;
+  color: gray;
 }
 .login-input-field {
   flex-grow: 1;
@@ -54,16 +75,38 @@
   border: 1px solid #64748b;
   border-radius: 3px;
   font-size: 14px;
-  color: #f8fafc;
+  color: black;
   outline: none;
-  cursor: pointer;
 }
+
+.forgot-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.label-style {
+  color: grey;
+  font-size: 15px;
+}
+
+.forgot-text {
+  color: #33beff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.underline-remove {
+  text-decoration: none;
+}
+
 .login-button {
   width: 100%;
-  background-color: #6366f1;
+  background-color: #33beff;
   color: #f8fafc;
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   height: 40px;
   border: none;
